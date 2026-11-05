@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!-- 宣告使用 HTML5，並指定網頁語言為繁體中文 -->
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="影展專題介紹：《不期而驛，驛猶未盡》。當搭火車不再是人與台中驛產生關係的理由，我們還能用什麼理由讓人走進來？">
+    <!-- 標示網頁作者 -->
+    <meta name="author" content="張怡玟">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph 分享資訊 -->
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="zh_TW">
+    <meta property="og:title" content="影展專題介紹：不期而驛，驛猶未盡｜張怡玟">
+    <meta property="og:description" content="探索臺中驛古蹟價值重塑計畫，將三代同堂的百年車站轉化為承載相遇、離別與團聚的情感車站。">
+    <meta property="og:image" content="六六六面.jpg">
+    <meta property="og:image:alt" content="不期而驛，驛猶未盡 專題海報">
+    <meta property="article:published_time" content="2026-11-05">
+    <meta property="article:modified_time" content="2026-11-05">
+
+    <title>影展專題介紹：不期而驛，驛猶未盡｜張怡玟</title>
+
+    <link rel="stylesheet" href="css/6.css">
+</head>
+<body id="top">
+
+    <!-- ================= 新增：全域導覽列 ================= -->
+    <nav class="navbar">
+        <div class="nav-brand">《不期而驛，驛猶未盡》</div>
+        <ul class="nav-links">
+            <li><a href="#intro">專案概述</a></li>
+            <li><a href="#positioning">客群定位</a></li>
+            <li><a href="#story">故事腳本</a></li>
+            <li><a href="#video">影音欣賞</a></li>
+        </ul>
+    </nav>
+
+    <!-- ================= 新增：Grid System 佈局容器 ================= -->
+    <div class="container grid-layout">
+        
+        <!-- ================= 新增：側邊欄 ================= -->
+        <aside class="sidebar">
+            <img src="六六六面.jpg" alt="不期而驛，驛猶未盡 專題封面" class="sidebar-img">
+            <div class="sidebar-box">
+                <h3>專題資訊</h3>
+                <ul>
+                    <li><strong>專題組別：</strong>乙六</li>
+                    <li><strong>主題場域：</strong>臺中驛鐵道文化園區</li>
+                    <li><strong>核心理念：</strong>說一段車站的故事</li>
+                </ul>
+            </div>
+            <div class="sidebar-box">
+                <h3>快速導覽</h3>
+                <ul class="quick-links">
+                    <li><a href="#intro">一、專案概述</a></li>
+                    <li><a href="#positioning">二、目標客群與定位</a></li>
+                    <li><a href="#gallery">三、主視覺海報</a></li>
+                    <li><a href="#story">四、故事化腳本</a></li>
+                    <li><a href="#comparison">五、競爭者分析</a></li>
+                    <li><a href="#map">六、地理位置與地圖</a></li>
+                    <li><a href="#video">七、廣告影片欣賞</a></li>
+                    <li><a href="#benefits">八、預期效益</a></li>
+                    <li><a href="#references">九、參考資料</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- ================= 保留區塊：主要內容區 ================= -->
+        <div class="content-wrapper">
+            
+            <!-- 原有 header：頁首區塊 -->
+            <header class="content-header">
+                <h1>不期而驛，驛猶未盡：臺中驛古蹟價值重塑計畫</h1>
+                <p>當搭火車不再是人與台中驛產生關係的理由，我們還能用什麼理由讓人走進來？[cite: 1]</p>
+                <p>作者：張怡玟｜ 報導整理日期：<time datetime="2026-11-05">2026 年 11 月 5 日</time></p>
+                
+                <p><small class="report-disclaimer">本文為大二影展專題介紹網頁，內容改編自乙六專案企劃書。</small></p>
+
+                <!-- 保留原目錄 (可在 CSS 設為僅手機版顯示，或當作大綱) -->
+                <nav aria-label="報導目錄" class="original-nav">
+                    <h2>專題目錄</h2>
+                    <ul>
+                        <li><a href="#intro">一、專案概述</a></li>
+                        <li><a href="#positioning">二、目標客群與定位</a></li>
+                        <li><a href="#gallery">三、主視覺海報</a></li>
+                        <li><a href="#story">四、故事化腳本</a></li>
+                        <li><a href="#comparison">五、競爭者分析</a></li>
+                        <li><a href="#map">六、地理位置與地圖</a></li>
+                        <li><a href="#video">七、廣告影片欣賞</a></li>
+                        <li><a href="#benefits">八、預期效益</a></li>
+                        <li><a href="#references">九、參考資料</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main id="main-content">
+                <!-- 原有 article 主題內容完全不動 -->
+                <article aria-label="影展專題介紹">
+                    
+                    <section id="intro">
+                        <h2>一、專案概述</h2>
+                        <p>臺中驛鐵道文化園區位於臺中市中區，是全台唯一擁有<mark class="reading-focus">「三代站體共存」</mark>特殊格局的文化資產場域[cite: 1]。園區內高度濃縮了百年的建築與歷史演進：<strong>1905年木造站房遺構、1917年紅磚站體（國定古蹟）與2016年高架車站</strong>同地並存[cite: 1]。</p>
+                        <p>鐵路高架化後，卸下任務的列車與月台成為了複合文化場域。然而，流失交通紅利後，這裡成為了一座「不再需要被路過、而需要被走進」的空間[cite: 1]。本專案旨在探討如何將百年車站獨有的古蹟硬體資源，轉化為深度的情感體驗內容[cite: 1]。</p>
+                    </section>
+                    
+                    <hr>
+
+                    <section id="positioning">
+                        <h2>二、目標客群與定位</h2>
+                        <p>透過問卷與訪談，我們將核心客群鎖定為<mark>【台中在地 × 社群共感型】</mark>[cite: 1]。這群人經常路過臺中車站，卻缺少一個「走進來」的理由；他們重視好拍的場景、有共鳴的故事與朋友間的話題[cite: 1]。</p>
+                        
+                        <h3>價值主張與定位</h3>
+                        <ul>
+                            <li><strong>功能價值：</strong>緊鄰車站市中心，提供免費、順路可達的低門檻體驗[cite: 1]。</li>
+                            <li><strong>情感價值：</strong>這是一座陪伴台灣走過經濟起飛年代的百年車站，讓人們在三代同堂的月台上，感受世代相互扶持、一路走來的情感傳承[cite: 1]。</li>
+                        </ul>
+                    </section>
+
+                    <hr>
+
+                    <section id="gallery">
+                        <h2>三、主視覺海報</h2>
+                        <figure>
+                            <img src="六六六面.jpg" alt="不期而驛，驛猶未盡 企劃海報" width="480">
+                            <figcaption>封面視覺：紅、黃道路與中央鐵道向前延伸，象徵跨越時空的相遇[cite: 1]</figcaption>
+                        </figure>
+                    </section>
+
+                    <hr>
+
+                    <section id="story">
+                        <h2>四、故事化腳本</h2>
+                        
+                        <p class="route-note">從介紹車站到「說一段車站的故事」：我們以台中驛的三代車站為背景，串起生生世世反覆經歷的相遇與離別[cite: 1]。</p>
+                        
+                        <ol>
+                            <li><strong>日治初代車站：</strong>男女主角在擁擠的月台上偶然相撞，散落一地的物品讓他們驚訝地發現彼此握有相同目的地的車票[cite: 1]。</li>
+                            <li><strong>民國二代車站：</strong>男主角拉著行李箱準備遠赴外地工作，女主角在月台入口不捨地送別，留下深情等待的背影[cite: 1]。</li>
+                            <li><strong>現代三代車站：</strong>時光流轉，兩人終於在舊軌藝文市集重逢並緊緊相牽，迎來「不再離別」的跨世代相守[cite: 1]。</li>
+                        </ol>
+                    </section>
+
+                    <hr>
+
+                    <section id="comparison">
+                        <h2>五、競爭者分析</h2>
+                        <p>將台中驛與國內其他鐵道文化園區進行比較，找出專屬的差異化優勢與市場空白點[cite: 1]：</p>
+                        
+                        <table class="info-table">
+                            <caption>鐵道文化場域競爭者比較表[cite: 1]</caption>
+                            <thead>
+                            <tr>
+                                <th scope="col">場域名稱</th>
+                                <th scope="col">古蹟價值</th>
+                                <th scope="col">故事轉譯與體驗</th>
+                                <th scope="col">消費與地理優勢</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">臺中驛鐵道文化園區</th>
+                                <td>全台唯一三代站體共存，1917年為國定古蹟</td>
+                                <td>具備三代素材，可近距離走入退役列車，唯過去缺乏主軸</td>
+                                <td>全區免費、緊鄰車站市中心，順路可達</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">哈瑪星鐵道文化園區</th>
+                                <td>高雄第一座火車站舊址，保留舊鐵道支線</td>
+                                <td>草地鐵道與大型裝置藝術、故事館呈現港都歷史</td>
+                                <td>全區免費、鄰近輕軌與捷運站</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">國家鐵道博物館</th>
+                                <td>近17公頃全區國定古蹟，資源規模龐大</td>
+                                <td>系統化常設展與影像說明、藍皮客車動態乘車</td>
+                                <td>園區免費（部分展區需購票）、捷運步行10分</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </section>
+
+                    <hr>
+
+                    <section id="map">
+                        <h2>六、地理位置與地圖</h2>
+                        <p>臺中驛鐵道文化園區緊鄰臺中車站，易串聯第二市場、宮原眼科等舊城景點，地址為：<strong>台中市中區台灣大道一段1號</strong>[cite: 1]。</p>
+                        
+                        <div class="media-container map-ratio">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.9951319139973!2d120.68478929999999!3d24.136809099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d4a45eeba8f%3A0x6d8102670b760fa4!2z6Ie65Lit6amb6ZC16YGT5paH5YyW5ZyS5Y2A!5e0!3m2!1szh-TW!2stw!4v1793858034691!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                    </section>
+
+                    <hr>
+
+                    <section id="video">
+                        <h2>七、廣告影片欣賞</h2>
+                        <p>以下是我們為專案拍攝的廣告影片，延伸標語：「鐵道會延伸, 故事也會。」[cite: 1]</p>
+                        <figure>
+                            <div class="media-container video-ratio">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/I7ormdth3So?si=01hvfrNR-HDBpcUl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <figcaption>影片：《不期而驛，驛猶未盡》</figcaption>
+                        </figure>
+                    </section>
+                    
+                    <hr>
+
+                    <aside id="benefits" aria-labelledby="benefits-title">
+                        <h2 id="benefits-title">八、預期效益</h2>
+                        <details>
+                            <summary>從「路過」轉為「走進」，我們預期的改變[cite: 1]</summary>
+                            <ul>
+                                <li><strong>短期目標：</strong>影片上線首月於社群平台累積觀看與互動，帶動在地TA到舊軌月台拍照打卡、參與市集[cite: 1]。</li>
+                                <li><strong>長期效益：</strong>建立「台中驛＝陪伴三代人相遇、離別與團聚的情感車站」的品牌印象，串聯舊城散步路線，帶動二次消費[cite: 1]。</li>
+                            </ul>
+                        </details>
+                    </aside>
+
+                    <hr>
+
+                    <section id="references">
+                        <h2>九、參考資料</h2>
+                        <p>本專案企劃分析引用之相關資料來源[cite: 1]：</p>
+                        <ul>
+                            <li>國營臺灣鐵路股份有限公司（2025）。臺鐵統計年報。</li>
+                            <li>交通部觀光署（2025）。中華民國113年臺灣旅遊狀況調查摘要。</li>
+                            <li>Booking.com（2024）。2025 年九大旅遊趨勢。</li>
+                            <li>專案成員：張怡玟、李惠簾、曾珮瑜、趙苡昕、陳柔安、林芸溱、嚴文崧。</li>
+                         </ul>
+                    </section>
+
+                </article>
+
+                <!-- ================= 新增：分頁導覽元件 ================= -->
+                <div class="pagination">
+                    <a href="#" class="page-btn">&laquo; 上一頁</a>
+                    <a href="#intro" class="page-num active">1</a>
+                    <a href="#story" class="page-num">2</a>
+                    <a href="#comparison" class="page-num">3</a>
+                    <a href="#video" class="page-num">4</a>
+                    <a href="#" class="page-btn">下一頁 &raquo;</a>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- 原有 footer：頁尾區塊 -->
+    <footer>
+        <p><strong>D1420617_張怡玟｜影展專題介紹</strong></p>
+        <p><small>專題組別：乙六 · 更新日期：<time datetime="2026-11-05">2026 年 11 月 5 日</time></small></p>
+        <p><small>本文為課堂資料整理型作業，企劃內容屬乙六專案團隊所有。</small></p>
+        <p><a href="#top">↑ 回到頁首</a></p>
+    </footer>
+
+</body>
+</html>
